@@ -2,7 +2,6 @@
 #### Python版 freeswitch outbound 呼入服务 
 
 
-
 ##### freeswitch 配置文件
 新增 freeswitch/conf/dialplan/public/1010_inbound.xml
 expression 这里配置网关名称
@@ -20,6 +19,10 @@ expression 这里配置网关名称
   </extension>
 </include>
 ```
+
+##### 环境依赖
+1. python3.8 
+2. freeswitch v1.10.7
 
 ##### 运行命令
 ```shell
